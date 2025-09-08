@@ -1,5 +1,5 @@
 # Overview 
-This project focuses on writing test for the train system microservice application (https://github.com/FudanSELab/train-ticket/tree/release-0.0.4) as part of the Testing Microservice Systems course. It includes **component tests** and **integration tests**. 
+This project focuses on writing test for the train system microservice application (https://github.com/FudanSELab/train-ticket/tree/release-0.0.4) as part of the Testing Microservice Systems course (Summer semester 2024). It includes **component tests** and **integration tests**. 
 # Train Ticket：A Benchmark Microservice System
 
 The project is a train ticket booking system based on microservice architecture which contains 41 microservices. The programming languages and frameworks it used are as below.
@@ -20,3 +20,27 @@ To run the integration tests, the docker images have to be build first. For that
 2. run the command ```bash bash build-docker-images.sh``` in the root of the project. 
 
 That will build all the needed docker immages for the integration tests.
+
+##Implementation
+I (Susanna Gordon) implementend the Component tests for the services: 
+- ts-consign-price-service
+- ts-consign-service
+- ts-contacts-service
+- ts-execute-service
+- ts-food-map-service
+- ts-food-service
+- ts-inside-payment-service
+- ts-news-service
+- ts-notification-service
+- ts-order-other-service
+- ts-order-service
+- ts-travel-service
+I (Susanna Gordon) implemented the integration tests for the services: 
+- ts-order-service 
+- ts-consign-service 
+- ts-order-other-service 
+- ts-execute-service 
+- ts-inside-payment-service 
+- ts-food-service
+- ts-route-plan-service 
+
