@@ -21,7 +21,7 @@ To run the integration tests, the docker images have to be build first. For that
 
 That will build all the needed docker immages for the integration tests.
 
-##Implementation
+## Implementation
 I (Susanna Gordon) implementend the Component tests for the services: 
 - ts-consign-price-service
 - ts-consign-service
@@ -35,6 +35,7 @@ I (Susanna Gordon) implementend the Component tests for the services:
 - ts-order-other-service
 - ts-order-service
 - ts-travel-service
+
 I (Susanna Gordon) implemented the integration tests for the services: 
 - ts-order-service 
 - ts-consign-service 
